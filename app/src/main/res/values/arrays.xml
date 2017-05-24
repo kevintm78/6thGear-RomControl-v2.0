@@ -20,6 +20,74 @@
         <item>Three</item>
         <item>Let\'s make twenty</item>
     </string-array>
+    <string-array name="traffic_state_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_state_items">
+        <item>Disable view</item>
+        <item>Upload only</item>
+        <item>Download only</item>
+        <item>Upload and Download</item>
+    </string-array>
+    <string-array name="arrow_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="arrow_position_entries">
+        <item>To end of view</item>
+        <item>To start of view</item>
+    </string-array>
+    <string-array name="traffic_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="traffic_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_entries">
+        <item>Default</item>
+        <item>Convex</item>
+        <item>Concave</item>
+        <item>Glass</item>
+        <item>Convex square</item>
+        <item>Concave square</item>
+        <item>Glass square</item>
+        <item>Realms</item>
+        <item>Magnifying glass</item>
+        <item>Dark light</item>
+        <item>Metal</item>
+        <item>Leather</item>
+        <item>Leather rounded</item>
+        <item>Leather round</item>
+        <item>Darksyde</item>
+        <item>Square</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
     <string-array name="test_list_values" translatable="false">
         <item>1</item>
         <item>2</item>
