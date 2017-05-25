@@ -9,28 +9,35 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Some changelog thing lkjh l lkjh slkjh lkjh s,mnb lkjhs lkjh poiuy slkjh</item>
-        <item>Another changelog thing ;lkj d;lkj ;lkjs ;lkj ;lkj s;lkj ;lkj s;lkj ;lkj ;lks ;lkj ;lkj</item>
-        <item>Some more changelog things</item>
-        <item>Some even more changelog thing</item>
-        <item>And another changelog thing ;lsj; lkjs ;lkj ; lkj;lsjk ;sklj s;lkj s;lk js;lkj s;lkj</item>
-        <item>How many changelog things</item>
-        <item>What a long changelog!!!</item>
-        <item>Is it twenty already?</item>
-        <item>Are we there yet?</item>
-        <item>Live long and prosper</item>
-        <item>So say we all</item>
-        <item>Patience you must have</item>
-        <item>Great scot!!!</item>
-        <item>No disassemble…</item>
-        <item>Almost there</item>
-        <item>Done with changelog</item>
+        <item>Multi-DPI</item>
+        <item>3minit Battery</item>
+        <item>Potato Clock</item>
+        <item>Statusbar Gradient</item>
+        <item>Network traffic in statusbar</item>
+        <item>Change QS toggle background</item>
+        <item>Change QS toggle background color</item>
+        <item>Edge Features</item>
+        <item>Private Mode</item>
+        <item>Vol. up for flashlight</item>
+        <item>Tethering check disabled</item>
+        <item>Viper4Android</item>
+        <item>Toolbox enabled</item>
+        <item>Flashlight in Quick Settings</item>
+        <item>Safe volume removed</item>
+        <item>Modest Kernel</item>
+        <item>All apps Multi-Window</item>
+        <item>Touchwiz swipe left</item>
+        <item>6 in the hotseat</item>
+        <item>Brought back "once and always" buttons</item>
+        <item>5 way reboot</item>
+        <item>1000 Fonts</item>
+        <item>Call recording</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">build v1.0 6thgearrom</string>
+    <string name="rom_version_for_changelog">Modest Rom v8</string>
 
 
 </resources>

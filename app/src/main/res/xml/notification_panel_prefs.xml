@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="App Shortcuts">
+
+    <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+        android:summary="The official sound mod of the Gods"
+        app:componentName="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity"/>
+
+    <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+        android:summary="Control samsung's toolbox, turn it on or off, choose available apps and rearrange them"
+        app:componentName="com.wubydax.toolboxsettings/com.wubydax.toolboxsettings.ToolboxSettings"/>
+
+    <!--Example of OpenAppPreference with custom title and icon-->
+    <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+        android:summary="Choose what app or shortcut to open when TW launcher is being swiped to the magazine page"
+        android:title="Shortcut to GearTWSwipe"
+        app:componentName="com.wubydax.geartwswipe/com.wubydax.geartwswipe.ResetDialogActivity"/>
+
+    <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+        app:componentName="com.grarak.kerneladiutor/com.grarak.kerneladiutor.activities.StartActivity"
+        android:summary="For tweaking your favorite kernel"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Thread Links">
+        <PreferenceScreen
+            android:title="Modest Rom"
+            android:icon="@drawable/red"
+            android:summary="Where roms go to be modest">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/note-4-verizon/development/modest-rom-sm-n910v-pf3-t3458377" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Modest Rom Control"
+            android:icon="@drawable/github_dd"
+            android:summary="Source code for rom control">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/kevintm78/Modest_RomControl" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Modest Kernel"
+            android:icon="@drawable/github_starwars"
+            android:summary="Source code for Modest Kernel">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/kevintm78/Modest" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
